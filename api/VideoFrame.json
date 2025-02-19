@@ -4,6 +4,9 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/VideoFrame",
         "spec_url": "https://w3c.github.io/webcodecs/#videoframe-interface",
+        "tags": [
+          "web-features:webcodecs"
+        ],
         "support": {
           "chrome": {
             "version_added": "94"
@@ -11,9 +14,11 @@
           "chrome_android": "mirror",
           "edge": "mirror",
           "firefox": {
+            "version_added": "130"
+          },
+          "firefox_android": {
             "version_added": false
           },
-          "firefox_android": "mirror",
           "ie": {
             "version_added": false
           },
@@ -21,23 +26,27 @@
           "opera": "mirror",
           "opera_android": "mirror",
           "safari": {
-            "version_added": "preview"
+            "version_added": "16.4"
           },
           "safari_ios": "mirror",
           "samsunginternet_android": "mirror",
-          "webview_android": "mirror"
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
-          "experimental": true,
+          "experimental": false,
           "standard_track": true,
           "deprecated": false
         }
       },
       "VideoFrame": {
         "__compat": {
-          "description": "<code>VideoFrame()</code> constructor",
+          "description": "`VideoFrame()` constructor",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/VideoFrame/VideoFrame",
           "spec_url": "https://w3c.github.io/webcodecs/#dom-videoframe-videoframe",
+          "tags": [
+            "web-features:webcodecs"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
@@ -45,9 +54,11 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
+              "version_added": "130"
+            },
+            "firefox_android": {
               "version_added": false
             },
-            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
@@ -55,14 +66,15 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": "preview"
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -72,6 +84,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/VideoFrame/allocationSize",
           "spec_url": "https://w3c.github.io/webcodecs/#dom-videoframe-allocationsize",
+          "tags": [
+            "web-features:webcodecs"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
@@ -79,9 +94,11 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
+              "version_added": "130"
+            },
+            "firefox_android": {
               "version_added": false
             },
-            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
@@ -89,14 +106,15 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": "preview"
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -106,6 +124,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/VideoFrame/clone",
           "spec_url": "https://w3c.github.io/webcodecs/#dom-videoframe-clone",
+          "tags": [
+            "web-features:webcodecs"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
@@ -113,9 +134,11 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
+              "version_added": "130"
+            },
+            "firefox_android": {
               "version_added": false
             },
-            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
@@ -123,14 +146,15 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": "preview"
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -140,6 +164,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/VideoFrame/close",
           "spec_url": "https://w3c.github.io/webcodecs/#dom-videoframe-close",
+          "tags": [
+            "web-features:webcodecs"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
@@ -147,9 +174,11 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
+              "version_added": "130"
+            },
+            "firefox_android": {
               "version_added": false
             },
-            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
@@ -157,14 +186,15 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": "preview"
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -174,6 +204,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/VideoFrame/codedHeight",
           "spec_url": "https://w3c.github.io/webcodecs/#dom-videoframe-codedheight",
+          "tags": [
+            "web-features:webcodecs"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
@@ -181,9 +214,11 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
+              "version_added": "130"
+            },
+            "firefox_android": {
               "version_added": false
             },
-            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
@@ -191,14 +226,15 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": "preview"
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -208,6 +244,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/VideoFrame/codedRect",
           "spec_url": "https://w3c.github.io/webcodecs/#dom-videoframe-codedrect",
+          "tags": [
+            "web-features:webcodecs"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
@@ -215,9 +254,11 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
+              "version_added": "130"
+            },
+            "firefox_android": {
               "version_added": false
             },
-            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
@@ -225,14 +266,15 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": "preview"
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -242,6 +284,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/VideoFrame/codedWidth",
           "spec_url": "https://w3c.github.io/webcodecs/#dom-videoframe-codedwidth",
+          "tags": [
+            "web-features:webcodecs"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
@@ -249,9 +294,11 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
+              "version_added": "130"
+            },
+            "firefox_android": {
               "version_added": false
             },
-            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
@@ -259,14 +306,15 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": "preview"
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -276,6 +324,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/VideoFrame/colorSpace",
           "spec_url": "https://w3c.github.io/webcodecs/#dom-videoframe-colorspace",
+          "tags": [
+            "web-features:webcodecs"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
@@ -283,9 +334,11 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
+              "version_added": "130"
+            },
+            "firefox_android": {
               "version_added": false
             },
-            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
@@ -293,14 +346,15 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": "preview"
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -308,7 +362,11 @@
       },
       "copyTo": {
         "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/VideoFrame/copyTo",
           "spec_url": "https://w3c.github.io/webcodecs/#dom-videoframe-copyto",
+          "tags": [
+            "web-features:webcodecs"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
@@ -316,9 +374,11 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
+              "version_added": "130"
+            },
+            "firefox_android": {
               "version_added": false
             },
-            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
@@ -326,14 +386,15 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": "preview"
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -343,6 +404,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/VideoFrame/displayHeight",
           "spec_url": "https://w3c.github.io/webcodecs/#dom-videoframe-displayheight",
+          "tags": [
+            "web-features:webcodecs"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
@@ -350,9 +414,11 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
+              "version_added": "130"
+            },
+            "firefox_android": {
               "version_added": false
             },
-            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
@@ -360,14 +426,15 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": "preview"
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -377,6 +444,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/VideoFrame/displayWidth",
           "spec_url": "https://w3c.github.io/webcodecs/#dom-videoframe-displaywidth",
+          "tags": [
+            "web-features:webcodecs"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
@@ -384,9 +454,11 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
+              "version_added": "130"
+            },
+            "firefox_android": {
               "version_added": false
             },
-            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
@@ -394,14 +466,15 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": "preview"
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -411,6 +484,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/VideoFrame/duration",
           "spec_url": "https://w3c.github.io/webcodecs/#dom-videoframe-duration",
+          "tags": [
+            "web-features:webcodecs"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
@@ -418,9 +494,11 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
+              "version_added": "130"
+            },
+            "firefox_android": {
               "version_added": false
             },
-            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
@@ -428,14 +506,15 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": "preview"
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -445,6 +524,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/VideoFrame/format",
           "spec_url": "https://w3c.github.io/webcodecs/#dom-videoframe-format",
+          "tags": [
+            "web-features:webcodecs"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
@@ -452,9 +534,11 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
+              "version_added": "130"
+            },
+            "firefox_android": {
               "version_added": false
             },
-            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
@@ -462,14 +546,15 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": "preview"
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -479,6 +564,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/VideoFrame/timestamp",
           "spec_url": "https://w3c.github.io/webcodecs/#dom-videoframe-timestamp",
+          "tags": [
+            "web-features:webcodecs"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
@@ -486,9 +574,11 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
+              "version_added": "130"
+            },
+            "firefox_android": {
               "version_added": false
             },
-            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
@@ -496,14 +586,15 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": "preview"
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -513,6 +604,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/VideoFrame/visibleRect",
           "spec_url": "https://w3c.github.io/webcodecs/#dom-videoframe-visiblerect",
+          "tags": [
+            "web-features:webcodecs"
+          ],
           "support": {
             "chrome": {
               "version_added": "94"
@@ -520,9 +614,11 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
+              "version_added": "130"
+            },
+            "firefox_android": {
               "version_added": false
             },
-            "firefox_android": "mirror",
             "ie": {
               "version_added": false
             },
@@ -530,14 +626,15 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": "preview"
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }

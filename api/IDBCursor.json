@@ -4,15 +4,18 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/IDBCursor",
         "spec_url": "https://w3c.github.io/IndexedDB/#cursor-interface",
+        "tags": [
+          "web-features:indexeddb"
+        ],
         "support": {
           "chrome": [
             {
               "version_added": "24"
             },
             {
+              "prefix": "webkit",
               "version_added": "23",
-              "version_removed": "57",
-              "prefix": "webkit"
+              "version_removed": "57"
             }
           ],
           "chrome_android": "mirror",
@@ -24,9 +27,9 @@
               "version_added": "16"
             },
             {
+              "prefix": "moz",
               "version_added": "10",
-              "version_removed": "16",
-              "prefix": "moz"
+              "version_removed": "16"
             }
           ],
           "firefox_android": {
@@ -41,9 +44,9 @@
               "version_added": "44"
             },
             {
+              "prefix": "webkit",
               "version_added": "15",
-              "version_removed": "44",
-              "prefix": "webkit"
+              "version_removed": "44"
             }
           ],
           "opera_android": [
@@ -51,9 +54,9 @@
               "version_added": "43"
             },
             {
+              "prefix": "webkit",
               "version_added": "14",
-              "version_removed": "43",
-              "prefix": "webkit"
+              "version_removed": "43"
             }
           ],
           "safari": {
@@ -66,11 +69,12 @@
               "version_added": "4.4"
             },
             {
+              "prefix": "webkit",
               "version_added": "≤37",
-              "version_removed": "57",
-              "prefix": "webkit"
+              "version_removed": "57"
             }
-          ]
+          ],
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": false,
@@ -81,6 +85,9 @@
       "worker_support": {
         "__compat": {
           "description": "Available in workers",
+          "tags": [
+            "web-features:indexeddb"
+          ],
           "support": {
             "chrome": {
               "version_added": "23"
@@ -104,7 +111,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -117,6 +125,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/IDBCursor/advance",
           "spec_url": "https://w3c.github.io/IndexedDB/#ref-for-dom-idbcursor-advance①",
+          "tags": [
+            "web-features:indexeddb"
+          ],
           "support": {
             "chrome": {
               "version_added": "23"
@@ -142,7 +153,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -155,6 +167,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/IDBCursor/continue",
           "spec_url": "https://w3c.github.io/IndexedDB/#ref-for-dom-idbcursor-continue①",
+          "tags": [
+            "web-features:indexeddb"
+          ],
           "support": {
             "chrome": {
               "version_added": "23"
@@ -180,7 +195,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -193,6 +209,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/IDBCursor/continuePrimaryKey",
           "spec_url": "https://w3c.github.io/IndexedDB/#ref-for-dom-idbcursor-continueprimarykey①",
+          "tags": [
+            "web-features:indexeddb"
+          ],
           "support": {
             "chrome": {
               "version_added": "58"
@@ -216,7 +235,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -229,6 +249,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/IDBCursor/delete",
           "spec_url": "https://w3c.github.io/IndexedDB/#ref-for-dom-idbcursor-delete①",
+          "tags": [
+            "web-features:indexeddb"
+          ],
           "support": {
             "chrome": {
               "version_added": "23"
@@ -254,7 +277,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -267,6 +291,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/IDBCursor/direction",
           "spec_url": "https://w3c.github.io/IndexedDB/#ref-for-dom-idbcursor-direction①",
+          "tags": [
+            "web-features:indexeddb"
+          ],
           "support": {
             "chrome": {
               "version_added": "23"
@@ -292,7 +319,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -305,6 +333,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/IDBCursor/key",
           "spec_url": "https://w3c.github.io/IndexedDB/#ref-for-dom-idbcursor-key①",
+          "tags": [
+            "web-features:indexeddb"
+          ],
           "support": {
             "chrome": {
               "version_added": "23"
@@ -330,7 +361,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -341,6 +373,9 @@
         "binary_keys": {
           "__compat": {
             "description": "Binary keys",
+            "tags": [
+              "web-features:indexeddb"
+            ],
             "support": {
               "chrome": {
                 "version_added": "58"
@@ -364,7 +399,8 @@
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
-              "webview_android": "mirror"
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -378,6 +414,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/IDBCursor/primaryKey",
           "spec_url": "https://w3c.github.io/IndexedDB/#ref-for-dom-idbcursor-primarykey①",
+          "tags": [
+            "web-features:indexeddb"
+          ],
           "support": {
             "chrome": {
               "version_added": "23"
@@ -403,7 +442,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -416,6 +456,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/IDBCursor/request",
           "spec_url": "https://w3c.github.io/IndexedDB/#ref-for-dom-idbcursor-request①",
+          "tags": [
+            "web-features:indexeddb"
+          ],
           "support": {
             "chrome": {
               "version_added": "76"
@@ -437,7 +480,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -450,6 +494,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/IDBCursor/source",
           "spec_url": "https://w3c.github.io/IndexedDB/#ref-for-dom-idbcursor-source①",
+          "tags": [
+            "web-features:indexeddb"
+          ],
           "support": {
             "chrome": {
               "version_added": "23"
@@ -475,7 +522,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -488,6 +536,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/IDBCursor/update",
           "spec_url": "https://w3c.github.io/IndexedDB/#ref-for-dom-idbcursor-update①",
+          "tags": [
+            "web-features:indexeddb"
+          ],
           "support": {
             "chrome": {
               "version_added": "23"
@@ -513,7 +564,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,

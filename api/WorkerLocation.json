@@ -6,7 +6,7 @@
         "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#worker-locations",
         "support": {
           "chrome": {
-            "version_added": "3"
+            "version_added": "4"
           },
           "chrome_android": "mirror",
           "deno": {
@@ -36,7 +36,8 @@
             "version_added": "5"
           },
           "samsunginternet_android": "mirror",
-          "webview_android": "mirror"
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": false,
@@ -50,7 +51,7 @@
           "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#dom-workerlocation-hash",
           "support": {
             "chrome": {
-              "version_added": "3"
+              "version_added": "4"
             },
             "chrome_android": "mirror",
             "deno": {
@@ -80,7 +81,8 @@
               "version_added": "5"
             },
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -95,7 +97,7 @@
           "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#dom-workerlocation-host",
           "support": {
             "chrome": {
-              "version_added": "3"
+              "version_added": "4"
             },
             "chrome_android": "mirror",
             "deno": {
@@ -125,7 +127,8 @@
               "version_added": "5"
             },
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -140,7 +143,7 @@
           "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#dom-workerlocation-hostname",
           "support": {
             "chrome": {
-              "version_added": "3"
+              "version_added": "4"
             },
             "chrome_android": "mirror",
             "deno": {
@@ -170,7 +173,8 @@
               "version_added": "5"
             },
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -185,7 +189,7 @@
           "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#dom-workerlocation-href",
           "support": {
             "chrome": {
-              "version_added": "3"
+              "version_added": "4"
             },
             "chrome_android": "mirror",
             "deno": {
@@ -215,7 +219,8 @@
               "version_added": "5"
             },
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -254,7 +259,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -269,7 +275,7 @@
           "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#dom-workerlocation-pathname",
           "support": {
             "chrome": {
-              "version_added": "3"
+              "version_added": "4"
             },
             "chrome_android": "mirror",
             "deno": {
@@ -299,7 +305,8 @@
               "version_added": "5"
             },
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -314,7 +321,7 @@
           "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#dom-workerlocation-port",
           "support": {
             "chrome": {
-              "version_added": "3"
+              "version_added": "4"
             },
             "chrome_android": "mirror",
             "deno": {
@@ -344,7 +351,8 @@
               "version_added": "5"
             },
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -359,7 +367,7 @@
           "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#dom-workerlocation-protocol",
           "support": {
             "chrome": {
-              "version_added": "3"
+              "version_added": "4"
             },
             "chrome_android": "mirror",
             "deno": {
@@ -389,7 +397,8 @@
               "version_added": "5"
             },
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -404,7 +413,7 @@
           "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#dom-workerlocation-search",
           "support": {
             "chrome": {
-              "version_added": "3"
+              "version_added": "4"
             },
             "chrome_android": "mirror",
             "deno": {
@@ -434,7 +443,8 @@
               "version_added": "5"
             },
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -449,7 +459,7 @@
           "spec_url": "https://html.spec.whatwg.org/multipage/workers.html#workerlocation",
           "support": {
             "chrome": {
-              "version_added": "3"
+              "version_added": "4"
             },
             "chrome_android": "mirror",
             "deno": {
@@ -481,7 +491,8 @@
             "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": "≤37"
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
