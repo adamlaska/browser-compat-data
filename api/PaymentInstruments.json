@@ -2,11 +2,10 @@
   "api": {
     "PaymentInstruments": {
       "__compat": {
-        "mdn_url": "https://developer.mozilla.org/docs/Web/API/PaymentInstruments",
-        "spec_url": "https://w3c.github.io/payment-handler/#paymentinstruments-interface",
         "support": {
           "chrome": {
-            "version_added": "70"
+            "version_added": "70",
+            "version_removed": "111"
           },
           "chrome_android": "mirror",
           "edge": "mirror",
@@ -27,22 +26,22 @@
           "samsunginternet_android": "mirror",
           "webview_android": {
             "version_added": false
-          }
+          },
+          "webview_ios": "mirror"
         },
         "status": {
-          "experimental": true,
-          "standard_track": true,
-          "deprecated": false
+          "experimental": false,
+          "standard_track": false,
+          "deprecated": true
         }
       },
       "clear": {
         "__compat": {
-          "description": "<code>clear()</code>",
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PaymentInstruments/clear",
-          "spec_url": "https://w3c.github.io/payment-handler/#dom-paymentinstruments-clear",
+          "description": "`clear()`",
           "support": {
             "chrome": {
-              "version_added": "70"
+              "version_added": "70",
+              "version_removed": "111"
             },
             "chrome_android": "mirror",
             "edge": "mirror",
@@ -63,23 +62,23 @@
             "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": false
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
-            "standard_track": true,
-            "deprecated": false
+            "experimental": false,
+            "standard_track": false,
+            "deprecated": true
           }
         }
       },
       "delete": {
         "__compat": {
-          "description": "<code>delete()</code>",
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PaymentInstruments/delete",
-          "spec_url": "https://w3c.github.io/payment-handler/#dom-paymentinstruments-delete",
+          "description": "`delete()`",
           "support": {
             "chrome": {
-              "version_added": "70"
+              "version_added": "70",
+              "version_removed": "111"
             },
             "chrome_android": "mirror",
             "edge": "mirror",
@@ -100,23 +99,23 @@
             "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": false
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
-            "standard_track": true,
-            "deprecated": false
+            "experimental": false,
+            "standard_track": false,
+            "deprecated": true
           }
         }
       },
       "get": {
         "__compat": {
-          "description": "<code>get()</code>",
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PaymentInstruments/get",
-          "spec_url": "https://w3c.github.io/payment-handler/#dom-paymentinstruments-get",
+          "description": "`get()`",
           "support": {
             "chrome": {
-              "version_added": "70"
+              "version_added": "70",
+              "version_removed": "111"
             },
             "chrome_android": "mirror",
             "edge": "mirror",
@@ -137,23 +136,23 @@
             "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": false
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
-            "standard_track": true,
-            "deprecated": false
+            "experimental": false,
+            "standard_track": false,
+            "deprecated": true
           }
         }
       },
       "has": {
         "__compat": {
-          "description": "<code>has()</code>",
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PaymentInstruments/has",
-          "spec_url": "https://w3c.github.io/payment-handler/#dom-paymentinstruments-has",
+          "description": "`has()`",
           "support": {
             "chrome": {
-              "version_added": "70"
+              "version_added": "70",
+              "version_removed": "111"
             },
             "chrome_android": "mirror",
             "edge": "mirror",
@@ -174,23 +173,23 @@
             "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": false
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
-            "standard_track": true,
-            "deprecated": false
+            "experimental": false,
+            "standard_track": false,
+            "deprecated": true
           }
         }
       },
       "keys": {
         "__compat": {
-          "description": "<code>keys()</code>",
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PaymentInstruments/keys",
-          "spec_url": "https://w3c.github.io/payment-handler/#dom-paymentinstruments-keys",
+          "description": "`keys()`",
           "support": {
             "chrome": {
-              "version_added": "70"
+              "version_added": "70",
+              "version_removed": "111"
             },
             "chrome_android": "mirror",
             "edge": "mirror",
@@ -211,23 +210,23 @@
             "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": false
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
-            "standard_track": true,
-            "deprecated": false
+            "experimental": false,
+            "standard_track": false,
+            "deprecated": true
           }
         }
       },
       "set": {
         "__compat": {
-          "description": "<code>set()</code>",
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PaymentInstruments/set",
-          "spec_url": "https://w3c.github.io/payment-handler/#dom-paymentinstruments-set",
+          "description": "`set()`",
           "support": {
             "chrome": {
-              "version_added": "70"
+              "version_added": "70",
+              "version_removed": "111"
             },
             "chrome_android": "mirror",
             "edge": "mirror",
@@ -248,12 +247,13 @@
             "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": false
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
-            "standard_track": true,
-            "deprecated": false
+            "experimental": false,
+            "standard_track": false,
+            "deprecated": true
           }
         }
       }

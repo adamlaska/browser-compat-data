@@ -11,8 +11,14 @@
           "chrome_android": "mirror",
           "edge": "mirror",
           "firefox": {
-            "version_added": false,
-            "notes": "See <a href='https://bugzil.la/888177'>bug 888177</a>."
+            "version_added": "35",
+            "flags": [
+              {
+                "type": "preference",
+                "name": "dom.imagecapture.enabled",
+                "value_to_set": "true"
+              }
+            ]
           },
           "firefox_android": "mirror",
           "ie": {
@@ -22,11 +28,19 @@
           "opera": "mirror",
           "opera_android": "mirror",
           "safari": {
-            "version_added": false
+            "version_added": "17.4",
+            "flags": [
+              {
+                "type": "preference",
+                "name": "Image Capture API",
+                "value_to_set": "true"
+              }
+            ]
           },
           "safari_ios": "mirror",
           "samsunginternet_android": "mirror",
-          "webview_android": "mirror"
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": true,
@@ -36,7 +50,7 @@
       },
       "ImageCapture": {
         "__compat": {
-          "description": "<code>ImageCapture()</code> constructor",
+          "description": "`ImageCapture()` constructor",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ImageCapture/ImageCapture",
           "spec_url": "https://w3c.github.io/mediacapture-image/#dom-imagecapture-imagecapture",
           "support": {
@@ -46,8 +60,14 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false,
-              "notes": "See <a href='https://bugzil.la/888177'>bug 888177</a>."
+              "version_added": "35",
+              "flags": [
+                {
+                  "type": "preference",
+                  "name": "dom.imagecapture.enabled",
+                  "value_to_set": "true"
+                }
+              ]
             },
             "firefox_android": "mirror",
             "ie": {
@@ -57,11 +77,19 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "17.4",
+              "flags": [
+                {
+                  "type": "preference",
+                  "name": "Image Capture API",
+                  "value_to_set": "true"
+                }
+              ]
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -81,8 +109,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false,
-              "notes": "See <a href='https://bugzil.la/888177'>bug 888177</a>."
+              "version_added": false
             },
             "firefox_android": "mirror",
             "ie": {
@@ -92,11 +119,19 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "17.4",
+              "flags": [
+                {
+                  "type": "preference",
+                  "name": "Image Capture API",
+                  "value_to_set": "true"
+                }
+              ]
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -116,8 +151,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false,
-              "notes": "See <a href='https://bugzil.la/888177'>bug 888177</a>."
+              "version_added": false
             },
             "firefox_android": "mirror",
             "ie": {
@@ -131,11 +165,19 @@
               "version_added": "43"
             },
             "safari": {
-              "version_added": false
+              "version_added": "17.4",
+              "flags": [
+                {
+                  "type": "preference",
+                  "name": "Image Capture API",
+                  "value_to_set": "true"
+                }
+              ]
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -155,8 +197,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false,
-              "notes": "See <a href='https://bugzil.la/888177'>bug 888177</a>."
+              "version_added": false
             },
             "firefox_android": "mirror",
             "ie": {
@@ -170,7 +211,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -190,16 +232,22 @@
               },
               {
                 "version_added": "59",
-                "partial_implementation": true,
                 "version_removed": "60",
-                "notes": "<code>photoSettings</code> parameter not supported."
+                "partial_implementation": true,
+                "notes": "`photoSettings` parameter not supported."
               }
             ],
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false,
-              "notes": "See <a href='https://bugzil.la/888177'>bug 888177</a>."
+              "version_added": "35",
+              "flags": [
+                {
+                  "type": "preference",
+                  "name": "dom.imagecapture.enabled",
+                  "value_to_set": "true"
+                }
+              ]
             },
             "firefox_android": "mirror",
             "ie": {
@@ -209,11 +257,19 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "17.4",
+              "flags": [
+                {
+                  "type": "preference",
+                  "name": "Image Capture API",
+                  "value_to_set": "true"
+                }
+              ]
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
@@ -233,8 +289,15 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false,
-              "notes": "See <a href='https://bugzil.la/888177'>bug 888177</a>."
+              "alternative_name": "videoStreamTrack",
+              "version_added": "35",
+              "flags": [
+                {
+                  "type": "preference",
+                  "name": "dom.imagecapture.enabled",
+                  "value_to_set": "true"
+                }
+              ]
             },
             "firefox_android": "mirror",
             "ie": {
@@ -244,11 +307,19 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "17.4",
+              "flags": [
+                {
+                  "type": "preference",
+                  "name": "Image Capture API",
+                  "value_to_set": "true"
+                }
+              ]
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": true,
