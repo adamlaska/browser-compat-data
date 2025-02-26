@@ -4,9 +4,12 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/MessageEvent",
         "spec_url": "https://html.spec.whatwg.org/multipage/comms.html#the-messageevent-interface",
+        "tags": [
+          "web-features:postmessage"
+        ],
         "support": {
           "chrome": {
-            "version_added": "1"
+            "version_added": "2"
           },
           "chrome_android": "mirror",
           "deno": {
@@ -39,7 +42,8 @@
           "samsunginternet_android": "mirror",
           "webview_android": {
             "version_added": "≤37"
-          }
+          },
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": false,
@@ -49,9 +53,12 @@
       },
       "MessageEvent": {
         "__compat": {
-          "description": "<code>MessageEvent()</code> constructor",
+          "description": "`MessageEvent()` constructor",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MessageEvent/MessageEvent",
           "spec_url": "https://html.spec.whatwg.org/multipage/comms.html#the-messageevent-interface:dom-event-constructor",
+          "tags": [
+            "web-features:postmessage"
+          ],
           "support": {
             "chrome": {
               "version_added": "16"
@@ -85,7 +92,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -98,9 +106,12 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MessageEvent/data",
           "spec_url": "https://html.spec.whatwg.org/multipage/comms.html#dom-messageevent-data-dev",
+          "tags": [
+            "web-features:postmessage"
+          ],
           "support": {
             "chrome": {
-              "version_added": "1"
+              "version_added": "2"
             },
             "chrome_android": "mirror",
             "deno": {
@@ -133,7 +144,8 @@
             "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": "≤37"
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -144,11 +156,10 @@
       },
       "initMessageEvent": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/MessageEvent/initMessageEvent",
           "spec_url": "https://html.spec.whatwg.org/multipage/comms.html#dom-messageevent-initmessageevent",
           "support": {
             "chrome": {
-              "version_added": "1"
+              "version_added": "2"
             },
             "chrome_android": "mirror",
             "deno": {
@@ -181,7 +192,8 @@
             "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": "≤37"
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -194,9 +206,12 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MessageEvent/lastEventId",
           "spec_url": "https://html.spec.whatwg.org/multipage/comms.html#dom-messageevent-lasteventid-dev",
+          "tags": [
+            "web-features:postmessage"
+          ],
           "support": {
             "chrome": {
-              "version_added": "1"
+              "version_added": "2"
             },
             "chrome_android": "mirror",
             "deno": {
@@ -229,7 +244,8 @@
             "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": "≤37"
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -242,9 +258,12 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MessageEvent/origin",
           "spec_url": "https://html.spec.whatwg.org/multipage/comms.html#dom-messageevent-origin-dev",
+          "tags": [
+            "web-features:postmessage"
+          ],
           "support": {
             "chrome": {
-              "version_added": "1"
+              "version_added": "2"
             },
             "chrome_android": "mirror",
             "deno": {
@@ -277,7 +296,8 @@
             "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": "≤37"
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -290,9 +310,12 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MessageEvent/ports",
           "spec_url": "https://html.spec.whatwg.org/multipage/comms.html#dom-messageevent-ports-dev",
+          "tags": [
+            "web-features:channel-messaging"
+          ],
           "support": {
             "chrome": {
-              "version_added": "1"
+              "version_added": "4"
             },
             "chrome_android": "mirror",
             "deno": {
@@ -325,7 +348,8 @@
             "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": "≤37"
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -338,9 +362,12 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/MessageEvent/source",
           "spec_url": "https://html.spec.whatwg.org/multipage/comms.html#dom-messageevent-source-dev",
+          "tags": [
+            "web-features:postmessage"
+          ],
           "support": {
             "chrome": {
-              "version_added": "1"
+              "version_added": "2"
             },
             "chrome_android": "mirror",
             "deno": {
@@ -373,11 +400,51 @@
             "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": "≤37"
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
             "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "userActivation": {
+        "__compat": {
+          "support": {
+            "chrome": {
+              "version_added": "72"
+            },
+            "chrome_android": "mirror",
+            "deno": {
+              "version_added": false
+            },
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "nodejs": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": false,
             "deprecated": false
           }
         }

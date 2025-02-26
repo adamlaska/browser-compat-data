@@ -4,6 +4,9 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/WheelEvent",
         "spec_url": "https://w3c.github.io/uievents/#interface-wheelevent",
+        "tags": [
+          "web-features:wheel-events"
+        ],
         "support": {
           "chrome": {
             "version_added": "1"
@@ -31,7 +34,8 @@
           "samsunginternet_android": "mirror",
           "webview_android": {
             "version_added": "≤37"
-          }
+          },
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": false,
@@ -41,9 +45,12 @@
       },
       "WheelEvent": {
         "__compat": {
-          "description": "<code>WheelEvent()</code> constructor",
+          "description": "`WheelEvent()` constructor",
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/WheelEvent/WheelEvent",
           "spec_url": "https://w3c.github.io/uievents/#dom-wheelevent-wheelevent",
+          "tags": [
+            "web-features:wheel-events"
+          ],
           "support": {
             "chrome": {
               "version_added": "26"
@@ -69,7 +76,8 @@
             "samsunginternet_android": {
               "version_added": "1.0"
             },
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -82,6 +90,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/WheelEvent/deltaMode",
           "spec_url": "https://w3c.github.io/uievents/#dom-wheelevent-deltamode",
+          "tags": [
+            "web-features:wheel-events"
+          ],
           "support": {
             "chrome": {
               "version_added": "26"
@@ -107,7 +118,8 @@
             "samsunginternet_android": {
               "version_added": "1.0"
             },
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -120,6 +132,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/WheelEvent/deltaX",
           "spec_url": "https://w3c.github.io/uievents/#dom-wheelevent-deltax",
+          "tags": [
+            "web-features:wheel-events"
+          ],
           "support": {
             "chrome": {
               "version_added": "31"
@@ -134,7 +149,7 @@
             "firefox_android": "mirror",
             "ie": {
               "version_added": "9",
-              "notes": "IE9 supports an old draft of the spec where this value was a <code>long</code> instead of a <code>double</code>."
+              "notes": "IE9 supports an old draft of the spec where this value was a `long` instead of a `double`."
             },
             "oculus": "mirror",
             "opera": "mirror",
@@ -144,7 +159,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -157,6 +173,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/WheelEvent/deltaY",
           "spec_url": "https://w3c.github.io/uievents/#dom-wheelevent-deltay",
+          "tags": [
+            "web-features:wheel-events"
+          ],
           "support": {
             "chrome": {
               "version_added": "31"
@@ -171,7 +190,7 @@
             "firefox_android": "mirror",
             "ie": {
               "version_added": "9",
-              "notes": "IE9 supports an old draft of the spec where this value was a <code>long</code> instead of a <code>double</code>."
+              "notes": "IE9 supports an old draft of the spec where this value was a `long` instead of a `double`."
             },
             "oculus": "mirror",
             "opera": "mirror",
@@ -181,7 +200,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -194,6 +214,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/WheelEvent/deltaZ",
           "spec_url": "https://w3c.github.io/uievents/#dom-wheelevent-deltaz",
+          "tags": [
+            "web-features:wheel-events"
+          ],
           "support": {
             "chrome": {
               "version_added": "31"
@@ -208,7 +231,7 @@
             "firefox_android": "mirror",
             "ie": {
               "version_added": "9",
-              "notes": "IE9 supports an old draft of the spec where this value was a <code>long</code> instead of a <code>double</code>."
+              "notes": "IE9 supports an old draft of the spec where this value was a `long` instead of a `double`."
             },
             "oculus": "mirror",
             "opera": "mirror",
@@ -218,7 +241,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -229,7 +253,10 @@
       },
       "pinch_to_zoom_support": {
         "__compat": {
-          "description": "Pinch-to-zoom maps to <code>WheelEvent</code> + <code>ctrl</code> key.",
+          "description": "Pinch-to-zoom maps to `WheelEvent` + `ctrl` key.",
+          "tags": [
+            "web-features:wheel-events"
+          ],
           "support": {
             "chrome": {
               "version_added": "31"
@@ -253,7 +280,8 @@
               "version_added": false
             },
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -291,7 +319,8 @@
             "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": "≤37"
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -329,7 +358,8 @@
             "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": "≤37"
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -367,7 +397,8 @@
             "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": "≤37"
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,

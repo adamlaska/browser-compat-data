@@ -4,6 +4,9 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals",
         "spec_url": "https://html.spec.whatwg.org/multipage/custom-elements.html#the-elementinternals-interface",
+        "tags": [
+          "web-features:form-associated-custom-elements"
+        ],
         "support": {
           "chrome": {
             "version_added": "77"
@@ -21,12 +24,13 @@
           "opera": "mirror",
           "opera_android": "mirror",
           "safari": {
-            "version_added": false,
-            "notes": "See <a href='https://webkit.org/b/197960'>bug 197960</a>."
+            "version_added": "16.4",
+            "impl_url": "https://webkit.org/b/197960"
           },
           "safari_ios": "mirror",
           "samsunginternet_android": "mirror",
-          "webview_android": "mirror"
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": false,
@@ -34,13 +38,15 @@
           "deprecated": false
         }
       },
-      "ariaAtomic": {
+      "ariaActiveDescendantElement": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaAtomic",
-          "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariaatomic",
+          "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariaactivedescendantelement",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
-              "version_added": "81"
+              "version_added": false
             },
             "chrome_android": "mirror",
             "edge": "mirror",
@@ -55,11 +61,50 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "ariaAtomic": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaAtomic",
+          "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariaatomic",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "81"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "119"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "16.4"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -72,6 +117,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaAutoComplete",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariaautocomplete",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "81"
@@ -79,7 +127,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -89,11 +137,86 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "ariaBrailleLabel": {
+        "__compat": {
+          "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariabraillelabel",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "107"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "125"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "18"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "ariaBrailleRoleDescription": {
+        "__compat": {
+          "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariabrailleroledescription",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "107"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "125"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "18"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -106,6 +229,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaBusy",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariabusy",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "81"
@@ -113,7 +239,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -123,11 +249,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -140,6 +267,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaChecked",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariachecked",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "81"
@@ -147,7 +277,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -157,11 +287,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -174,6 +305,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaColCount",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariacolcount",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "81"
@@ -181,7 +315,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -191,11 +325,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -208,6 +343,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaColIndex",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariacolindex",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "81"
@@ -215,7 +353,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -225,11 +363,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -242,14 +381,17 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaColIndexText",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariacolindextext",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
-              "version_added": "81"
+              "version_added": "128"
             },
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -263,7 +405,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -276,9 +419,49 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaColSpan",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariacolspan",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "81"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "119"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "16.4"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "ariaControlsElements": {
+        "__compat": {
+          "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariacontrolselements",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": false
             },
             "chrome_android": "mirror",
             "edge": "mirror",
@@ -293,14 +476,15 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": false,
+            "experimental": true,
             "standard_track": true,
             "deprecated": false
           }
@@ -310,9 +494,49 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaCurrent",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariacurrent",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "81"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "119"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "16.4"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "ariaDescribedByElements": {
+        "__compat": {
+          "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariadescribedbyelements",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": false
             },
             "chrome_android": "mirror",
             "edge": "mirror",
@@ -327,14 +551,15 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": false,
+            "experimental": true,
             "standard_track": true,
             "deprecated": false
           }
@@ -344,9 +569,49 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaDescription",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariadescription",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "83"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "119"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "ariaDetailsElements": {
+        "__compat": {
+          "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariadetailselements",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": false
             },
             "chrome_android": "mirror",
             "edge": "mirror",
@@ -361,14 +626,15 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": false,
+            "experimental": true,
             "standard_track": true,
             "deprecated": false
           }
@@ -378,9 +644,49 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaDisabled",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariadisabled",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "81"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "119"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "16.4"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "ariaErrorMessageElements": {
+        "__compat": {
+          "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariaerrormessageelements",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": false
             },
             "chrome_android": "mirror",
             "edge": "mirror",
@@ -395,14 +701,15 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": false,
+            "experimental": true,
             "standard_track": true,
             "deprecated": false
           }
@@ -412,9 +719,49 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaExpanded",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariaexpanded",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "81"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "119"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "16.4"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "ariaFlowToElements": {
+        "__compat": {
+          "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariaflowtoelements",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": false
             },
             "chrome_android": "mirror",
             "edge": "mirror",
@@ -429,14 +776,15 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": false,
+            "experimental": true,
             "standard_track": true,
             "deprecated": false
           }
@@ -446,6 +794,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaHasPopup",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariahaspopup",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "81"
@@ -453,7 +804,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -463,11 +814,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -480,6 +832,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaHidden",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariahidden",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "81"
@@ -487,7 +842,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -497,11 +852,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -513,6 +869,9 @@
       "ariaInvalid": {
         "__compat": {
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariainvalid",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "102"
@@ -520,7 +879,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -530,14 +889,15 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -547,6 +907,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaKeyShortcuts",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariakeyshortcuts",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "81"
@@ -554,7 +917,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -564,11 +927,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -581,9 +945,49 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaLabel",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-arialabel",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "81"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "119"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "16.4"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "ariaLabelledByElements": {
+        "__compat": {
+          "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-arialabelledbyelements",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": false
             },
             "chrome_android": "mirror",
             "edge": "mirror",
@@ -598,14 +1002,15 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": false,
+            "experimental": true,
             "standard_track": true,
             "deprecated": false
           }
@@ -615,6 +1020,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaLevel",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-arialevel",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "81"
@@ -622,7 +1030,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -632,11 +1040,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -649,6 +1058,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaLive",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-arialive",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "81"
@@ -656,7 +1068,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -666,11 +1078,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -683,6 +1096,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaModal",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariamodal",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "81"
@@ -690,7 +1106,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -700,11 +1116,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -717,6 +1134,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaMultiLine",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariamultiline",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "81"
@@ -724,7 +1144,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -734,11 +1154,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -751,6 +1172,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaMultiSelectable",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariamultiselectable",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "81"
@@ -758,7 +1182,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -768,11 +1192,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -785,9 +1210,49 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaOrientation",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariaorientation",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "81"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "119"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "16.4"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "ariaOwnsElements": {
+        "__compat": {
+          "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariaownselements",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": false
             },
             "chrome_android": "mirror",
             "edge": "mirror",
@@ -802,14 +1267,15 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": false,
+            "experimental": true,
             "standard_track": true,
             "deprecated": false
           }
@@ -819,6 +1285,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaPlaceholder",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariaplaceholder",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "81"
@@ -826,7 +1295,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -836,11 +1305,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -853,6 +1323,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaPosInSet",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariaposinset",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "81"
@@ -860,7 +1333,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -870,11 +1343,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -887,6 +1361,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaPressed",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariapressed",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "81"
@@ -894,7 +1371,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -904,11 +1381,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -921,6 +1399,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaReadOnly",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariareadonly",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "81"
@@ -928,7 +1409,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -938,11 +1419,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -961,7 +1443,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -971,11 +1453,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -988,6 +1471,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaRequired",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariarequired",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "81"
@@ -995,7 +1481,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1005,11 +1491,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1022,6 +1509,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaRoleDescription",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariaroledescription",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "81"
@@ -1029,7 +1519,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1039,11 +1529,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1056,6 +1547,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaRowCount",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariarowcount",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "81"
@@ -1063,7 +1557,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1073,11 +1567,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1090,6 +1585,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaRowIndex",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariarowindex",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "81"
@@ -1097,7 +1595,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1107,11 +1605,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1124,14 +1623,17 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaRowIndexText",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariarowindextext",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
-              "version_added": "81"
+              "version_added": "128"
             },
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1145,7 +1647,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1158,6 +1661,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaRowSpan",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariarowspan",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "81"
@@ -1165,7 +1671,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1175,11 +1681,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1192,6 +1699,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaSelected",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariaselected",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "81"
@@ -1199,7 +1709,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1209,11 +1719,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1226,6 +1737,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaSetSize",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariasetsize",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "84"
@@ -1233,7 +1747,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1243,11 +1757,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1260,6 +1775,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaSort",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariasort",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "81"
@@ -1267,7 +1785,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1277,11 +1795,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1294,6 +1813,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaValueMax",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariavaluemax",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "81"
@@ -1301,7 +1823,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1311,11 +1833,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1328,6 +1851,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaValueMin",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariavaluemin",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "81"
@@ -1335,7 +1861,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1345,11 +1871,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1362,6 +1889,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaValueNow",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariavaluenow",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "81"
@@ -1369,7 +1899,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1379,11 +1909,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1396,6 +1927,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaValueText",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-ariavaluetext",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "81"
@@ -1403,7 +1937,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1413,11 +1947,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1430,6 +1965,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/checkValidity",
           "spec_url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-elementinternals-checkvalidity",
+          "tags": [
+            "web-features:form-associated-custom-elements"
+          ],
           "support": {
             "chrome": {
               "version_added": "77"
@@ -1447,11 +1985,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1464,6 +2003,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/form",
           "spec_url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-elementinternals-form",
+          "tags": [
+            "web-features:form-associated-custom-elements"
+          ],
           "support": {
             "chrome": {
               "version_added": "77"
@@ -1481,11 +2023,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1498,6 +2041,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/labels",
           "spec_url": "https://html.spec.whatwg.org/multipage/forms.html#dom-elementinternals-labels",
+          "tags": [
+            "web-features:form-associated-custom-elements"
+          ],
           "support": {
             "chrome": {
               "version_added": "77"
@@ -1515,11 +2061,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1532,6 +2079,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/reportValidity",
           "spec_url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-elementinternals-reportvalidity",
+          "tags": [
+            "web-features:form-associated-custom-elements"
+          ],
           "support": {
             "chrome": {
               "version_added": "77"
@@ -1549,11 +2099,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1564,7 +2115,11 @@
       },
       "role": {
         "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/role",
           "spec_url": "https://w3c.github.io/aria/#dom-ariamixin-role",
+          "tags": [
+            "web-features:aria-attribute-reflection"
+          ],
           "support": {
             "chrome": {
               "version_added": "103"
@@ -1572,7 +2127,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "119"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1582,14 +2137,15 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -1599,6 +2155,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/setFormValue",
           "spec_url": "https://html.spec.whatwg.org/multipage/custom-elements.html#dom-elementinternals-setformvalue",
+          "tags": [
+            "web-features:form-associated-custom-elements"
+          ],
           "support": {
             "chrome": {
               "version_added": "77"
@@ -1616,11 +2175,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1633,6 +2193,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/setValidity",
           "spec_url": "https://html.spec.whatwg.org/multipage/custom-elements.html#dom-elementinternals-setvalidity",
+          "tags": [
+            "web-features:form-associated-custom-elements"
+          ],
           "support": {
             "chrome": {
               "version_added": "77"
@@ -1650,11 +2213,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1669,7 +2233,7 @@
           "spec_url": "https://html.spec.whatwg.org/multipage/custom-elements.html#dom-elementinternals-shadowroot",
           "support": {
             "chrome": {
-              "version_added": "77"
+              "version_added": "88"
             },
             "chrome_android": "mirror",
             "edge": "mirror",
@@ -1684,11 +2248,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1699,7 +2264,11 @@
       },
       "states": {
         "__compat": {
-          "spec_url": "https://wicg.github.io/custom-state-pseudo-class/#dom-elementinternals-states",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/states",
+          "spec_url": "https://html.spec.whatwg.org/multipage/custom-elements.html#custom-state-pseudo-class",
+          "tags": [
+            "web-features:state"
+          ],
           "support": {
             "chrome": {
               "version_added": "90"
@@ -1707,7 +2276,7 @@
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": false
+              "version_added": "126"
             },
             "firefox_android": "mirror",
             "ie": {
@@ -1717,14 +2286,15 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "17.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
-            "experimental": true,
+            "experimental": false,
             "standard_track": true,
             "deprecated": false
           }
@@ -1734,6 +2304,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/validationMessage",
           "spec_url": "https://html.spec.whatwg.org/multipage/custom-elements.html#dom-elementinternals-validationmessage",
+          "tags": [
+            "web-features:form-associated-custom-elements"
+          ],
           "support": {
             "chrome": {
               "version_added": "77"
@@ -1751,11 +2324,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1768,6 +2342,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/validity",
           "spec_url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-elementinternals-validity",
+          "tags": [
+            "web-features:form-associated-custom-elements"
+          ],
           "support": {
             "chrome": {
               "version_added": "77"
@@ -1785,11 +2362,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1802,6 +2380,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/ElementInternals/willValidate",
           "spec_url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-elementinternals-willvalidate",
+          "tags": [
+            "web-features:form-associated-custom-elements"
+          ],
           "support": {
             "chrome": {
               "version_added": "77"
@@ -1819,11 +2400,12 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": false
+              "version_added": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,

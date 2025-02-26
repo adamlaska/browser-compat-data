@@ -4,6 +4,9 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLObjectElement",
         "spec_url": "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#htmlobjectelement",
+        "tags": [
+          "web-features:object"
+        ],
         "support": {
           "chrome": {
             "version_added": "1"
@@ -33,7 +36,8 @@
             "version_added": "1"
           },
           "samsunginternet_android": "mirror",
-          "webview_android": "mirror"
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": false,
@@ -43,7 +47,6 @@
       },
       "align": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLObjectElement/align",
           "spec_url": "https://html.spec.whatwg.org/multipage/obsolete.html#dom-object-align",
           "support": {
             "chrome": {
@@ -74,7 +77,8 @@
               "version_added": "1"
             },
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -85,7 +89,6 @@
       },
       "archive": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLObjectElement/archive",
           "spec_url": "https://html.spec.whatwg.org/multipage/obsolete.html#dom-object-archive",
           "support": {
             "chrome": {
@@ -116,7 +119,8 @@
               "version_added": "1"
             },
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -127,7 +131,6 @@
       },
       "border": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLObjectElement/border",
           "spec_url": "https://html.spec.whatwg.org/multipage/obsolete.html#dom-object-border",
           "support": {
             "chrome": {
@@ -158,7 +161,8 @@
               "version_added": "1"
             },
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -171,6 +175,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLObjectElement/checkValidity",
           "spec_url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-cva-checkvalidity-dev",
+          "tags": [
+            "web-features:constraint-validation"
+          ],
           "support": {
             "chrome": {
               "version_added": "10"
@@ -200,7 +207,8 @@
             "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": "≤37"
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -211,7 +219,6 @@
       },
       "code": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLObjectElement/code",
           "spec_url": "https://html.spec.whatwg.org/multipage/obsolete.html#dom-object-code",
           "support": {
             "chrome": {
@@ -242,7 +249,8 @@
               "version_added": "1"
             },
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -253,7 +261,6 @@
       },
       "codeBase": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLObjectElement/codeBase",
           "spec_url": "https://html.spec.whatwg.org/multipage/obsolete.html#dom-object-codebase",
           "support": {
             "chrome": {
@@ -284,7 +291,8 @@
               "version_added": "1"
             },
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -295,7 +303,6 @@
       },
       "codeType": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLObjectElement/codeType",
           "spec_url": "https://html.spec.whatwg.org/multipage/obsolete.html#dom-object-codetype",
           "support": {
             "chrome": {
@@ -326,7 +333,8 @@
               "version_added": "1"
             },
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -339,6 +347,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLObjectElement/contentDocument",
           "spec_url": "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#dom-object-contentdocument",
+          "tags": [
+            "web-features:object"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -368,7 +379,8 @@
               "version_added": "1"
             },
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -381,6 +393,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLObjectElement/contentWindow",
           "spec_url": "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#dom-object-contentwindow",
+          "tags": [
+            "web-features:object"
+          ],
           "support": {
             "chrome": {
               "version_added": "53"
@@ -404,7 +419,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -417,6 +433,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLObjectElement/data",
           "spec_url": "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#dom-object-data",
+          "tags": [
+            "web-features:object"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -446,7 +465,8 @@
               "version_added": "1"
             },
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -457,7 +477,6 @@
       },
       "declare": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLObjectElement/declare",
           "spec_url": "https://html.spec.whatwg.org/multipage/obsolete.html#dom-object-declare",
           "support": {
             "chrome": {
@@ -488,7 +507,8 @@
               "version_added": "1"
             },
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -501,6 +521,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLObjectElement/form",
           "spec_url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-fae-form-dev",
+          "tags": [
+            "web-features:object"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -530,7 +553,8 @@
               "version_added": "1"
             },
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -543,6 +567,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLObjectElement/getSVGDocument",
           "spec_url": "https://html.spec.whatwg.org/multipage/embedded-content-other.html#dom-media-getsvgdocument",
+          "tags": [
+            "web-features:object"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -572,7 +599,8 @@
               "version_added": "1"
             },
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -585,6 +613,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLObjectElement/height",
           "spec_url": "https://html.spec.whatwg.org/multipage/embedded-content-other.html#dom-dim-height",
+          "tags": [
+            "web-features:object"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -614,7 +645,8 @@
               "version_added": "1"
             },
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -625,7 +657,6 @@
       },
       "hspace": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLObjectElement/hspace",
           "spec_url": "https://html.spec.whatwg.org/multipage/obsolete.html#dom-object-hspace",
           "support": {
             "chrome": {
@@ -656,7 +687,8 @@
               "version_added": "1"
             },
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -669,6 +701,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLObjectElement/name",
           "spec_url": "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#dom-object-name",
+          "tags": [
+            "web-features:object"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -698,7 +733,8 @@
               "version_added": "1"
             },
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -711,6 +747,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLObjectElement/reportValidity",
           "spec_url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-cva-reportvalidity",
+          "tags": [
+            "web-features:constraint-validation"
+          ],
           "support": {
             "chrome": {
               "version_added": "40"
@@ -734,7 +773,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -747,9 +787,13 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLObjectElement/setCustomValidity",
           "spec_url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-cva-setcustomvalidity-dev",
+          "tags": [
+            "web-features:constraint-validation"
+          ],
           "support": {
             "chrome": {
-              "version_added": "10"
+              "version_added": "10",
+              "notes": "This method only updates the validation error popup, not the tooltip that appears when hovering the mouse over the element, see [bug 41380670](https://crbug.com/41380670)."
             },
             "chrome_android": "mirror",
             "edge": {
@@ -776,7 +820,8 @@
             "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": "≤37"
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -787,7 +832,6 @@
       },
       "standby": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLObjectElement/standby",
           "spec_url": "https://html.spec.whatwg.org/multipage/obsolete.html#dom-object-standby",
           "support": {
             "chrome": {
@@ -818,7 +862,8 @@
               "version_added": "1"
             },
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -831,6 +876,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLObjectElement/type",
           "spec_url": "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#dom-object-type",
+          "tags": [
+            "web-features:object"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -860,7 +908,8 @@
               "version_added": "1"
             },
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -902,12 +951,13 @@
               "version_added": "1"
             },
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
             "standard_track": true,
-            "deprecated": false
+            "deprecated": true
           }
         }
       },
@@ -915,6 +965,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLObjectElement/validationMessage",
           "spec_url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-cva-validationmessage-dev",
+          "tags": [
+            "web-features:constraint-validation"
+          ],
           "support": {
             "chrome": {
               "version_added": "10"
@@ -944,7 +997,8 @@
             "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": "≤37"
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -957,6 +1011,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLObjectElement/validity",
           "spec_url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-cva-validity",
+          "tags": [
+            "web-features:constraint-validation"
+          ],
           "support": {
             "chrome": {
               "version_added": "10"
@@ -986,7 +1043,8 @@
             "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": "≤37"
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -997,7 +1055,6 @@
       },
       "vspace": {
         "__compat": {
-          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLObjectElement/vspace",
           "spec_url": "https://html.spec.whatwg.org/multipage/obsolete.html#dom-object-vspace",
           "support": {
             "chrome": {
@@ -1028,7 +1085,8 @@
               "version_added": "1"
             },
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1041,6 +1099,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLObjectElement/width",
           "spec_url": "https://html.spec.whatwg.org/multipage/embedded-content-other.html#dom-dim-width",
+          "tags": [
+            "web-features:object"
+          ],
           "support": {
             "chrome": {
               "version_added": "1"
@@ -1070,7 +1131,8 @@
               "version_added": "1"
             },
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -1083,6 +1145,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLObjectElement/willValidate",
           "spec_url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-cva-willvalidate-dev",
+          "tags": [
+            "web-features:constraint-validation"
+          ],
           "support": {
             "chrome": {
               "version_added": "4"
@@ -1114,7 +1179,8 @@
             "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": "≤37"
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
