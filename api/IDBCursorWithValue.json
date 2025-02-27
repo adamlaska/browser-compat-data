@@ -4,15 +4,18 @@
       "__compat": {
         "mdn_url": "https://developer.mozilla.org/docs/Web/API/IDBCursorWithValue",
         "spec_url": "https://w3c.github.io/IndexedDB/#ref-for-idbcursorwithvalue②",
+        "tags": [
+          "web-features:indexeddb"
+        ],
         "support": {
           "chrome": [
             {
               "version_added": "24"
             },
             {
+              "prefix": "webkit",
               "version_added": "23",
-              "version_removed": "57",
-              "prefix": "webkit"
+              "version_removed": "57"
             }
           ],
           "chrome_android": "mirror",
@@ -24,9 +27,9 @@
               "version_added": "16"
             },
             {
+              "prefix": "moz",
               "version_added": "10",
-              "version_removed": "16",
-              "prefix": "moz"
+              "version_removed": "16"
             }
           ],
           "firefox_android": {
@@ -52,11 +55,12 @@
               "version_added": "4.4"
             },
             {
+              "prefix": "webkit",
               "version_added": "≤37",
-              "version_removed": "57",
-              "prefix": "webkit"
+              "version_removed": "57"
             }
-          ]
+          ],
+          "webview_ios": "mirror"
         },
         "status": {
           "experimental": false,
@@ -67,6 +71,9 @@
       "worker_support": {
         "__compat": {
           "description": "Available in workers",
+          "tags": [
+            "web-features:indexeddb"
+          ],
           "support": {
             "chrome": {
               "version_added": "23"
@@ -90,7 +97,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -103,6 +111,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/API/IDBCursorWithValue/value",
           "spec_url": "https://w3c.github.io/IndexedDB/#ref-for-dom-idbcursorwithvalue-value①",
+          "tags": [
+            "web-features:indexeddb"
+          ],
           "support": {
             "chrome": {
               "version_added": "23"
@@ -128,7 +139,8 @@
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,

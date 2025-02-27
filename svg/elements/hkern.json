@@ -5,9 +5,13 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Element/hkern",
           "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#HKernElement",
+          "tags": [
+            "web-features:svg-discouraged"
+          ],
           "support": {
             "chrome": {
-              "version_added": null
+              "version_added": "19",
+              "version_removed": "40"
             },
             "chrome_android": "mirror",
             "edge": "mirror",
@@ -22,11 +26,13 @@
             "opera": "mirror",
             "opera_android": "mirror",
             "safari": {
-              "version_added": null
+              "version_added": "6",
+              "version_removed": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
-            "webview_android": "mirror"
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -38,9 +44,13 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/g1",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#HKernElementG1Attribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "19",
+                "version_removed": "40"
               },
               "chrome_android": "mirror",
               "edge": "mirror",
@@ -55,11 +65,13 @@
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "6",
+                "version_removed": "16.4"
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
-              "webview_android": "mirror"
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -72,9 +84,13 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/g2",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#HKernElementG2Attribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "19",
+                "version_removed": "40"
               },
               "chrome_android": "mirror",
               "edge": "mirror",
@@ -89,11 +105,13 @@
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "6",
+                "version_removed": "16.4"
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
-              "webview_android": "mirror"
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -106,9 +124,13 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/k",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#HKernElementKAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "19",
+                "version_removed": "40"
               },
               "chrome_android": "mirror",
               "edge": "mirror",
@@ -123,11 +145,13 @@
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "6",
+                "version_removed": "16.4"
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
-              "webview_android": "mirror"
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -140,9 +164,13 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/u1",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#HKernElementU1Attribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "19",
+                "version_removed": "40"
               },
               "chrome_android": "mirror",
               "edge": "mirror",
@@ -157,11 +185,13 @@
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "6",
+                "version_removed": "16.4"
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
-              "webview_android": "mirror"
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -174,9 +204,13 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/u2",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#HKernElementU2Attribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
-                "version_added": null
+                "version_added": "19",
+                "version_removed": "40"
               },
               "chrome_android": "mirror",
               "edge": "mirror",
@@ -191,11 +225,13 @@
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "6",
+                "version_removed": "16.4"
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
-              "webview_android": "mirror"
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,

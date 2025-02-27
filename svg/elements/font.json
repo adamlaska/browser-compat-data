@@ -5,6 +5,9 @@
         "__compat": {
           "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Element/font",
           "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontElement",
+          "tags": [
+            "web-features:svg-discouraged"
+          ],
           "support": {
             "chrome": [
               {
@@ -46,14 +49,16 @@
               "version_removed": "25"
             },
             "safari": {
-              "version_added": "3.1"
+              "version_added": "3.1",
+              "version_removed": "16.4"
             },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
             "webview_android": {
               "version_added": "3",
               "version_removed": "62"
-            }
+            },
+            "webview_ios": "mirror"
           },
           "status": {
             "experimental": false,
@@ -67,6 +72,9 @@
             "spec_url": [
               "https://www.w3.org/TR/SVG11/fonts.html#GlyphElementHorizAdvXAttribute",
               "https://www.w3.org/TR/SVG11/fonts.html#FontElementHorizAdvXAttribute"
+            ],
+            "tags": [
+              "web-features:svg-discouraged"
             ],
             "support": {
               "chrome": {
@@ -85,11 +93,13 @@
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3.1",
+                "version_removed": "16.4"
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
-              "webview_android": "mirror"
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -102,6 +112,9 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/horiz-origin-x",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontElementHorizOriginXAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": false
@@ -119,11 +132,13 @@
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3.1",
+                "version_removed": "16.4"
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
-              "webview_android": "mirror"
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -136,6 +151,9 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/horiz-origin-y",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontElementHorizOriginYAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": false
@@ -153,11 +171,13 @@
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3.1",
+                "version_removed": "16.4"
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
-              "webview_android": "mirror"
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -173,6 +193,9 @@
               "https://www.w3.org/TR/SVG11/fonts.html#GlyphElementVertAdvYAttribute",
               "https://www.w3.org/TR/SVG11/fonts.html#FontElementVertAdvYAttribute"
             ],
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": false
@@ -190,11 +213,13 @@
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3.1",
+                "version_removed": "16.4"
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
-              "webview_android": "mirror"
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -207,6 +232,9 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/vert-origin-x",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontElementVertOriginXAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": false
@@ -224,11 +252,13 @@
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3.1",
+                "version_removed": "16.4"
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
-              "webview_android": "mirror"
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
@@ -241,6 +271,9 @@
           "__compat": {
             "mdn_url": "https://developer.mozilla.org/docs/Web/SVG/Attribute/vert-origin-y",
             "spec_url": "https://www.w3.org/TR/SVG11/fonts.html#FontElementVertOriginYAttribute",
+            "tags": [
+              "web-features:svg-discouraged"
+            ],
             "support": {
               "chrome": {
                 "version_added": false
@@ -258,11 +291,13 @@
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": null
+                "version_added": "3.1",
+                "version_removed": "16.4"
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
-              "webview_android": "mirror"
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
             },
             "status": {
               "experimental": false,
